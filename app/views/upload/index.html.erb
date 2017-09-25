@@ -1,0 +1,34 @@
+<h1>CSV Upload #index</h1>
+<p>Find me in app/views/dashboard/index.html.erb</p>
+
+<%= flash[:notice] %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Medication Name</th>
+      <th>Strength</th>
+      <th>Price</th>
+      <th>Origin</th>
+  </thead>
+
+  <tbody>
+    <% @medication.each do |med| %>
+    <tr>
+      <td><%= med.name %></td>
+      <td><%= med.strength %></td>
+      <td><%= med.price %></td>
+      <td><%= med.origin %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<div>
+  <h4>Import Data</h4>
+
+  <%= form_tag upload_import_path, multipart: true do %>
+    <%= file_field_tag :file %>
+    <%= submit_tag "Import CSV" %>
+  <% end %>
+</div>
