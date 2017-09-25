@@ -43,8 +43,7 @@ class MedApplication extends React.Component {
     return (
       <div className="container">
          <div className="jumbotron">
-           <h1>ReactJS Tutorial</h1>
-           <p>by Piotr Jaworski</p>
+           <h1>Ordinary Pharmacy</h1>
          </div>
          <div className="row">
            <div className="col-md-12">
