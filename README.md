@@ -1,24 +1,11 @@
-# README
+React Rails Pharmacy App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Inspired by a contract project, I wanted to rebuild the project in
+React / Rails with real life data. The original project was built on Wordpress with +10000 items. Eventually, this will my starting point for the mobile app with API feed.
 
-Things you may want to cover:
+Stack:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ruby on Rails
+React
+Javascript
+MYSQL
